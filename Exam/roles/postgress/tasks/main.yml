@@ -1,0 +1,10 @@
+---
+# tasks file for /etc/ansible/Ganiyu/Exam/roles/postgress
+- name: Send bash script on slave
+  template:
+    src: pgsql.sh.j2
+    dest: "/home/ubuntu/post.sh"
+    mode: "0777"
+
+- name: Execute the script
+  command: sh /home/ubuntu/post.sh
