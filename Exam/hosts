@@ -13,9 +13,8 @@
 #green.example.com
 #blue.example.com
 #192.168.100.1
-#192.168.100.10
-ec2-54-210-107-127.compute-1.amazonaws.com ansible_ssh_user=ubuntu
-# Ex 2: A collection of hosts belonging to the 'webservers' group
+#192.168.100.1
+ec2-3-91-175-171.compute-1.amazonaws.com ansible_ssh_user=ubuntu
 
 #[webservers]
 #alpha.example.org
