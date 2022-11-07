@@ -1,0 +1,5 @@
+---
+# tasks file for /etc/ansible/roles/php
+
+- import_tasks: package.yml
+- import_tasks: install.yml

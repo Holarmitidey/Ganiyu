@@ -1,0 +1,7 @@
+---
+# handlers file for /etc/ansible/roles/apache
+
+- name: Restart apache2
+  service:
+    name: apache2
+    state: restarted
